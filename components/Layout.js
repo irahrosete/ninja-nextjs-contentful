@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Layout({ children }) {
   const year = new Date().getFullYear()
-  
+
   return (
     <div className="layout">
       <header>
