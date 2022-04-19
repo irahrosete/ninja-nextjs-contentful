@@ -1,6 +1,8 @@
 import Link from 'next/link'
 
 export default function Layout({ children }) {
+  const year = new Date().getFullYear()
+  
   return (
     <div className="layout">
       <header>
@@ -20,7 +22,7 @@ export default function Layout({ children }) {
       </div>
 
       <footer>
-        <p>Copyright 2021 Just Add Marmite :)</p>
+        <p>Copyright {year} Just Add Marmite :)</p>
       </footer>
     </div>
   )
