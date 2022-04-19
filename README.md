@@ -1,9 +1,7 @@
-This is the Next.js starter site (and course files) for the Next.js & Contentful tutorial by the Net Ninja.
+# Ninja Recipe
 
-## Getting Started
+A marmite recipe website built on [Next.js](https://nextjs.org/) and [Contentful](https://www.contentful.com/) following the tutorial from [Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jClk8wl1yJcN3Zlrr8YSA1).
 
-To use the starter project, run the following in a terminal:
+Deployed on [Vercel](https://vercel.com)
 
-```bash
-npx create-next-app [your-site-name] -e https://github.com/iamshaunjp/next-contentful/tree/lesson-1-starter-site
-```
+Check the site here: https://nextjs-ninja-recipe.vercel.app/
